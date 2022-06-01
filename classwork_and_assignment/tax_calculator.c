@@ -24,7 +24,7 @@ void main()
     }
     else
     {
-        taxAmount = (0.1 * 10000) + (0.15 * 10000) + (0.2 * 30000) + (0.25 * (income - 50000));
+        taxAmount = (0.1 * 10000) + (0.15 * 10000) + (0.2 * 20000) + (0.25 * (income - 50000));
     }
 
     totalAmountWithTax = income + taxAmount;
